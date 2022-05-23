@@ -8,7 +8,7 @@ class Produk {
 
   factory Produk.fromJson(Map<String, dynamic> obj) {
     return Produk(
-        code: obj['id'],
+        id: obj['id'],
         kodeProduk: obj['kode_produk'],
         namaProduk: obj['nama_produk'],
         hargaProduk: obj['harga']);
